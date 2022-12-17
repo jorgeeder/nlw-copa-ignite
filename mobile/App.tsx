@@ -1,7 +1,6 @@
 import { NativeBaseProvider, StatusBar } from "native-base";
 import { useFonts, Roboto_400Regular, Roboto_500Medium, Roboto_700Bold } from "@expo-google-fonts/roboto";
-
-import { AuthContextProvider } from "./contexts/AuthContext";
+import { AuthContextProvider } from "./src/contexts/AuthContext";
 
 import { New } from './src/screens/New';
 import { Loading } from './src/components/Loading';
